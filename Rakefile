@@ -7,6 +7,6 @@ require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
 require 'rubygems' 
-# require 'db2s3/tasks'
+require 'db2s3/tasks'
 
 require 'tasks/rails'
