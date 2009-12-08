@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #512903;
+	background-image:url('/images/logo_main.png');
+	background-repeat:no-repeat;
+	background-position:top right;
+	color: #FFFFFF;
+	font-family: verdana, sans-serif;
+}
+a {
+	color: #c4def3;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px dotted #c4def3;
+}
+
+#main_content {
+	width: 600px;
+	margin: auto;
+	margin-top: 200px;
+}
