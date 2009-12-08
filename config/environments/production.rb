@@ -10,7 +10,13 @@ config.action_controller.perform_caching             = true
 config.action_view.cache_template_loading            = true
 
 config.action_mailer.raise_delivery_errors = true
-ActionMailer::Base.delivery_method = :sendmail
+ActionMailer::Base.delivery_method = :smtp
+ActionMailer::Base.smtp_settings = {
+  :address => 'localhost',
+  :domain => 'www.shannonline.com',
+  :port => 25
+}
+
 
 # See everything in the log (default is :info)
 # config.log_level = :debug
