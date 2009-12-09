@@ -35,16 +35,15 @@ namespace :deploy do
       run "touch #{File.join(shared_path,'config','initializers','db2s3.rb')}"
     end
     
-    desc "Make symlink for production.rb" 
-      task :symlink_production_rb do
-        run "ln -nfs #{File.join(shared_path,'config','environments','production.rb')} #{File.join(release_path,'config','environments','production.rb')}"
+    desc "Make symlink for environment.rb" 
+      task :symlink_environment_rb do
+        run "ln -nfs #{File.join(shared_path,'config', 'environment.rb')} #{File.join(release_path,'config','environment.rb')}"
       end
 
-      desc "Create empty production.rb in shared path" 
-      task :create_production_rb do
+      desc "Create empty environment.rb in shared path" 
+      task :create_environment_rb do
         run "mkdir -p #{shared_path}/config" 
-        run "mkdir -p #{shared_path}/config/environments" 
-        run "touch #{File.join(shared_path,'config','environments','production.rb')}"
+        run "touch #{File.join(shared_path,'config','environment.rb')}"
       end
     
     desc "restart"
@@ -53,9 +52,9 @@ namespace :deploy do
     end
       
   after 'deploy:setup', 'deploy:create_db2s3'
-  after 'deploy:setup', 'deploy:create_production_rb'
+  after 'deploy:setup', 'deploy:create_environment_rb'
   after 'deploy:update_code', 'deploy:symlink_db2s3'
-  after 'deploy:update_code', 'deploy:symlink_production_rb'
+  after 'deploy:update_code', 'deploy:symlink_environment_rb'
   after 'deploy:update_code', 'deploy:restart'
 end
   
