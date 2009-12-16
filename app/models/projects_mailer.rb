@@ -1,7 +1,7 @@
 class ProjectsMailer < ActionMailer::Base
   
   def test_email
-    recipients "Kathy_Gerwig@comcast.net"
+    recipients "shannonmrush@gmail.com"
     from       "admin"
     subject    "Test Email"
   end
