@@ -7,30 +7,25 @@ body {
 	background-image:url('/images/bg_stripes.png');
 	color: #FFFFFF;
 	font-family: verdana, sans-serif;
-	height: 100%;
-}
-html {
-	height: 100%;
 }
 a {
-	color: #c4def3;
+	color: #512903;
 	text-decoration: none;
 }
 a:hover {
-	border-bottom: 1px dotted #c4def3;
+	border-bottom: 1px dotted #512903;
 }
-
 #main_content {
 	width: 80%;
-	height: 100%;
 	margin: auto;
 	background-color: #512903;
 }
 #main_sub {
-	margin: 175px 20px 20px 20px;
+	margin: 150px 20px 20px 20px;
 }
 .logo_main {
 	float: right;
+	border: 0;
 }
 .project {
 	background-image:url('/images/project_bg.png');
@@ -39,7 +34,27 @@ a:hover {
 }
 .project_content {
 }
-.project_logo {
+.project_content .logo {
 	width: 562px;
 	text-align: center;
+}
+.project_content .logo a {
+	border:0;
+}
+.project_content .title {
+	margin-left: 20px;
+	font-weight: bold;
+}
+.project_content .url {
+	margin-left: 20px;
+}
+.project_content .desc {
+	margin-left: 20px;
+	margin-top: 10px;
+	font-style: italic;
+}
+.project_content ul {
+	margin-top: 10px;
+	margin-left: 40px;
+	font-size: 0.9em;
 }
