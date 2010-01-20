@@ -7,7 +7,11 @@
 	</head>
 	<body>
 		<div id="main_content">
-			<%= yield %>
+			<%= image_tag("logo_main.png", :class => "logo_main")%><br/>
+			<div class="clear"></div>
+			<div id="main_sub">
+				<%= yield %>
+			</div>
 		</div>
 	</body>
 </html>
