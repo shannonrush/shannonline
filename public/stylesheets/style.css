@@ -21,15 +21,22 @@ a:hover {
 }
 #main_content {
 	width: 80%;
+	min-height: 800px;
 	margin: auto;
 	background-color: #512903;
+	border: 1px solid transparent;
 }
 #main_sub {
-	margin: 150px 20px 20px 20px;
+	margin: -80px 20px 20px 20px;
 }
 .logo_main {
 	float: right;
 	border: 0;
+}
+#right_column {
+	width: 38%;
+  float: right;
+	margin-right: 20px;
 }
 .project {
 	background-image:url('/images/project_bg.png');
@@ -61,4 +68,14 @@ a:hover {
 	margin-top: 10px;
 	margin-left: 40px;
 	font-size: 0.8em;
+}
+.project_sm {
+	background-image:url('/images/project_bg_sm.png');
+	background-repeat:repeat-y;
+	color: #512903;
+}
+.project_content_sm ul {
+	font-size: 0.9em;
+	margin-left: 30px;
+	margin-right: 10px;
 }

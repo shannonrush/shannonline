@@ -1,19 +1,75 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <html>
-	<head>
-		<%= stylesheet_link_tag :all %>
-		<title>Shannonline</title>
-	</head>
-	<body>
-		<div id="main_content">
-			<div class="networks"><%= link_to image_tag("twitter.png", :border => 0), "http://www.twitter.com/shanfu"%>  <%= link_to image_tag("flickr.png", :border => 0), "http://www.flickr.com/photos/shannonmrush"%>   <%= link_to image_tag("linkedin.png", :border => 0), "http://www.linkedin.com/in/shannonrush"%>  </div>
-			<%= link_to image_tag("logo_main.png", :class => "logo_main"), root_path %><br/>
-			<div class="clear"></div>
-			<div id="main_sub">
-				<%= yield %>
-			</div>
+<head>
+	<%= stylesheet_link_tag :all %>
+	<title>Shannonline</title>
+</head>
+<body>
+	<div id="main_content">
+		<div class="networks"><%= link_to image_tag("twitter.png", :border => 0), "http://www.twitter.com/shanfu"%>  <%= link_to image_tag("flickr.png", :border => 0), "http://www.flickr.com/photos/shannonmrush"%>   <%= link_to image_tag("linkedin.png", :border => 0), "http://www.linkedin.com/in/shannonrush"%>  </div>
+		<%= link_to image_tag("logo_main.png", :class => "logo_main"), root_path %><br/>
+		<div id="main_sub" style="float:left;">
+			<%= yield %>
 		</div>
-	</body>
+		<div id="right_column">
+			<%= image_tag("idowebdev.png")%>
+			<div class="project_sm">
+				<%= image_tag("top_sm.png")%>
+				<div class="project_content_sm">
+					<ul>
+						<li>Github:
+							<ul>
+								<li><%= link_to "http://github.com/shannonrush", "http://github.com/shannonrush"%></li>
+							</ul>
+						</li>
+						<br/>
+						<li>Operating Systems
+							<ul>
+								<li>OS X, Fedora, Ubuntu</li>
+							</ul>
+						</li>
+						<li>Languages
+							<ul>
+								<li>Ruby, PHP, Perl, JavaScript</li>
+							</ul>
+						</li>
+						<li>Frameworks
+							<ul>
+								<li>Rails, jQuery, Prototype, Scriptaculous</li>
+							</ul>
+						</li>
+						<li>Databases
+							<ul>
+								<li>MySQL</li>
+							</ul>
+						</li>
+						<li>Web Servers
+							<ul>
+								<li>Apache2, Mongrel</li>
+							</ul>
+						</li>
+						<li>Mail Servers
+							<ul>
+								<li>Sendmail, Postfix</li>
+							</ul>
+						</li>
+						<li>System Administration
+							<ul>
+								<li>Amazon Web Services (EC2, S3), DNS, MX, SPF, Monit, BluePill, backgroundrb, cron</li>
+							</ul>
+						</li>
+						<li>Graphics/Modeling
+							<ul>
+								<li>Adobe Photoshop, Blender, Second Life building tools</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<%= image_tag("bottom_sm.png")%>
+		</div>
+	</div>
+</body>
 </html>
