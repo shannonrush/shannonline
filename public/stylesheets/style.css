@@ -11,10 +11,9 @@ body {
 a {
 	color: #512903;
 	text-decoration: none;
-}
-a:hover {
 	border-bottom: 1px dotted #512903;
 }
+
 .networks {
 	margin: 10px;
 	float: left;
