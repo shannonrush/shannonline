@@ -49,6 +49,16 @@ a {
 }
 .project_content {
 }
+.project_content_top {
+	background-image:url('/images/top.png');
+	width: 562px;
+	height: 30px;
+}
+.project_content_bottom {
+	background-image:url('/images/bottom.png');
+	width: 562px;
+	height: 20px;
+}
 .project_content .logo {
 	width: 562px;
 	text-align: center;
