@@ -1,9 +1,14 @@
+.body {
+	background-image: none;
+}
 .project {
 	background-image:none;
 	background-color: #c4def3;
 	color: #512903;
 	padding-right: 20px;
-	-webkit-border-radius: 10px;
+	-webkit-border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .project_content_top {
 	background-image:none;
