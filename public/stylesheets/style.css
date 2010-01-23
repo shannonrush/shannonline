@@ -45,6 +45,7 @@ a {
 	background-image:url('/images/project_bg.png');
 	background-repeat:repeat-y;
 	color: #512903;
+	padding-right: 15px;
 }
 .project_content {
 }
