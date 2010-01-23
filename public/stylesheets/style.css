@@ -89,6 +89,16 @@ a {
 	color: #512903;
 	padding-right: 15px;
 }
+.project_sm_top {
+	background-image:url('/images/top_sm.png');
+	width: 363px;
+	height: 34px;
+}
+.project_sm_botton {
+	background-image:url('/images/bottom_sm.png');
+	width: 363px;
+	height: 22px;
+}
 .project_content_sm ul {
 	font-size: 0.9em;
 	margin-left: 30px;
