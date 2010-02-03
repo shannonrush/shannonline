@@ -114,3 +114,8 @@ a {
 	margin-left: 65px;
 	font-size: 0.7em;
 }
+
+/* files */
+.files a {
+	color: #FFFFFF;
+}
