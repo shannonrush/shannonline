@@ -1,0 +1,18 @@
+development:
+  adapter: mysql
+  database: shannonline_devel
+  username: root
+  password:
+
+test:
+  adapter: mysql
+  database: shannonline_test
+  username: root
+  password: 
+    
+production:
+      adapter: mysql
+      encoding: utf8
+      database: shannonline_production
+      username: mysql
+      password: r6tuui1
