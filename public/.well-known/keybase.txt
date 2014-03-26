@@ -1,11 +1,12 @@
-://keybase.io/shanfu
+==================================================================
+https://keybase.io/shanfu
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of http://shannonline.com
-    * I am shanfu (https://keybase.io/shanfu) on keybase.
-      * I have a public key with fingerprint 3F2C FCFA 4257 F7B9 4AE0  1A2A F915 C047 7E09 F486
+  * I am shanfu (https://keybase.io/shanfu) on keybase.
+  * I have a public key with fingerprint 3F2C FCFA 4257 F7B9 4AE0  1A2A F915 C047 7E09 F486
 
       To claim this, I am signing this object:
 
