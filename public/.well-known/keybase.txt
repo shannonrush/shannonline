@@ -8,62 +8,63 @@ I hereby claim:
   * I am shanfu (https://keybase.io/shanfu) on keybase.
   * I have a public key with fingerprint 3F2C FCFA 4257 F7B9 4AE0  1A2A F915 C047 7E09 F486
 
-      To claim this, I am signing this object:
+To claim this, I am signing this object:
 
-  {
-          "body": {
-                      "key": {
-                                "fingerprint": "3f2cfcfa4257f7b94ae01a2af915c0477e09f486",
-                                "host": "keybase.io",
-                                "key_id": "F915C0477E09F486",
-                                "uid": "ba5d0ab076f3538d0ec362543724b300",
-                                "username": "shanfu"
-                             },
-                       "service": {
-                                "hostname": "shannonline.com",
-                                "protocol": "http:"                                                                                                             },
-                       "type": "web_service_binding",
-                                "version": 1
-                },
-          "ctime": 1395869681,
-          "expire_in": 157680000,
-          "prev": "c321ae17e565591ee02a10dcdb7b6463dafb5a9cae23e01ffa251b95c14106b1",
-          "seqno": 13,
-          "tag": "signature"
-  }
+{
+    "body": {
+        "key": {
+            "fingerprint": "3f2cfcfa4257f7b94ae01a2af915c0477e09f486",
+            "host": "keybase.io",
+            "key_id": "F915C0477E09F486",
+            "uid": "ba5d0ab076f3538d0ec362543724b300",
+            "username": "shanfu"
+        },
+        "service": {
+            "hostname": "shannonline.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395872273,
+    "expire_in": 157680000,
+    "prev": "daaa69b995d9e0ea2fd8e493a25bfa4a35cfa6925d7da1f96d56e1753d93477e",
+    "seqno": 14,
+    "tag": "signature"
+}
 
-      with the aforementioned key, yielding the PGP signature:
+with the aforementioned key, yielding the PGP signature:
 
-      -----BEGIN PGP MESSAGE-----
-      Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
-      Comment: GPGTools - https://gpgtools.org
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
 
-      owGbwMvMwMXI+vbcteXrIlYznj7wOYkh2Nj9S7VSUn5KpZJVtVJ2KphKy8xLTy0q
-      KMrMK1GyUjJOM0pOS05LNDEyNU8zT7I0SUw1MEw0SkyzNDRNNjAxN081sEwzsTBT
-      0lHKyC8G6QAak5RYnKqXmQ8UA3LiM1OAom5A9c4g9a4Glm4Q9aVgiaRE0xSDxCQD
-      c7M0Y1NjixSD1GRjMyNTE2NzI5MkYwMDkMLi1KK8xNxUoOrijMS8tFKlWh0loFhZ
-      ZnIqyMUgi5Hk8/LzcjLzUvWS83OBmguK8kvyk/NzgJIZJSUFViC9JZUFIMXlqUnx
-      UGPikzLzUoAeB2ooSy0qzszPU7IyBKpMLskEmWtobGlqYWZpZmGoo5RaUZBZlBqf
-      CVJham5mYQAEIGtSy4BGJhsbGSamGpqnmpqZmloapqYaGCUaGqQkpySZJ5mZmBmn
-      JKYlmSZaJiemGhkDAzItLdHI1DDJ0jTZ0MTQwCzJUAnkscK8fJCVQHcmpoP8lJme
-      l1hSWpSqVNvJJMPCwMjFwMbKBIo7Bi5OAViM/szn/+/COvNj20Ymluebp55ZLzo3
-      aLnGZq+dC+esjk7//L/nw33Wvu7M16wcpQ7Xtz50kc99xSLEc1/itNPepR+yovfW
-      T9ijOF/YU6pHcOHXH3Ymi4u0lLWftnS0bjXmNoky7SkTcGAr1tSQ5HxbH3adx3UG
-      s0gK1wHX+zZT/02rtVt0aC/nQs5JDwVFTqptW983T8P7f1TyhrT8+2s3rPeIuvjs
-      TEbuuxO6B7wnT5qRaRJ/3j5C4lHnE+N+36Ds931cdyxyD+WVzWZLDJ/pJxaoKNFQ
-      e27v810PrbaGd6sceZFayCQeHy71QaPeUXXR3dZ9WTuY7l5JKbgh+1bSQuoOV8wB
-      vd7982uXF74oKNvZkXlePOfel+VZMsfuxzw93bQt8fjpa9f40/WjHt5w3h3H2WGZ
-      wiJy5IVi+r+0GREm+TPZd91o21rA4HDH7On82Zazdt1v4ddb4bzR4+iCmhzm2GO5
-      SZse/Zsps3AH55J3R1c6zXAqqTA01Zwhu/zIn0R264RQpfoDzzwbX3+zuc+isf+b
-      n/Q57sUXap5Ku3I2d+vdfXq76vasTOeOR2tXqW/qmRqXFy38d52uaaivftdiO9HF
-      7wLYFtUuexi64tetIOss2zOfpr5fx5qwUbXJmtt3Yn/7lO4QboaHSdLd7k/OTZ15
-      qjJ8s9/+7I6JL/e7+7w7pfNr377sFQeVd/tnbXpi8+tJ0Z1sYU4Th9iDKQA=
-      =LUP9
-      -----END PGP MESSAGE-----
+owGbwMvMwMXI+vbcteXrIlYznj7wOYkh2DhIpFopKT+lUsmqWik7FUylZealpxYV
+FGXmlShZKRmnGSWnJaclmhiZmqeZJ1maJKYaGCYaJaZZGpomG5iYm6caWKaZWJgp
+6Shl5BeDdACNSUosTtXLzAeKATnxmSlAUTegemeQelcDSzeI+lKwRFKiaYpBYpKB
+uVmasamxRYpBarKxmZGpibG5kUmSsYEBSGFxalFeYm4qUHVxRmJeWqlSrY4SUKws
+MzkV5GKQxUjyefl5OZl5qXrJ+blAzQVF+SX5yfk5QMmMkpICK5DeksoCkOLy1KR4
+qDHxSZl5KUCPAzWUpRYVZ+bnKVkZAlUml2SCzDU0tjS1MDcyMjfWUUqtKMgsSo3P
+BKkwNTezMAACkDWpZUAjUxITE80skywtTVMsUw1SE43SUixSTSyNE41Mk4CBmGhs
+CgxLM0sj0xTzlETDNEuzFFOzVENzU+MUS2NQYCqBPFaYlw802wTozsR0kJ8y0/MS
+S0qLUpVqO5lkWBgYuRjYWJlAccfAxSkAi9HFCgIMa5sZe381+ra8jJ53YPerW3NP
+yYpbZr4x8mncW9HimP/y2eRK36mZJuyq2pMktDLqdy36/37x3dxjUVpmeUsmsWxP
+Ud9tVPcuanvgxGgZjc3rXsWYqWxhdGyJVUkJd3M+Y/zG2dVy0scPtR7PJgjH/RIq
+ejLV260njveA1At2/pM9EyZcPzJzmYH5piyR52s0laboGnZtOTrrR3HixwlLpvHn
+vrvr9K5Zz+GVzrT5/uKqbWtsl5xTvbyZqZZZV4l1wvLyukQvEVbhG/+2bXV07Y+Y
+e1PyeOmcwMrOitPXP6p8aK78HyW8X2u5zhTxPyLbn4sZMMiLT2TSEAsycbTKvqDw
+jMX3xx5Dr1UNL92ZNLZ8Sv8pb111kXuBk/+UWP+gtBmS91P5TcuUPD4217XW/r4/
+69GFRZLcB0QmqL0xPfpNY9frZe97rH9v/uQf6sPWJ6nqe0B+hZbXwXcH1N1CHgvW
+K0rcZ467l2E9YaPxE4etif92nBAX+sZVuLXFJ5Uj/rF7Vu8Lie2+l6R37g3Tlamz
+567wv55yd716stPrQ3GJ4lxP8p9MTdr34LuRq45eqsy6g0vXr05LmbFpZ2lCunZk
+RJ6s4/fnuakvec7FCls1vJzp5nv2z+xDcbny3MnmYZ8/fbHR9qpgFWjZuvB+wdHv
+Sfxxopuu/3+n1ay74LrH9fltZguCnb3uVBy+6zHrNQP7E6XrXFuYQwE=
+=MpT5
+-----END PGP MESSAGE-----
 
-      And finally, I am proving ownership of this host by posting or
-      appending to this document.
+And finally, I am proving ownership of this host by posting or
+appending to this document.
 
-      View my publicly-auditable identity here: https://keybase.io/shanfu
+View my publicly-auditable identity here: https://keybase.io/shanfu
 
-      ==================================================================
+==================================================================
