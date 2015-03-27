@@ -2,13 +2,16 @@
 <div class="project">
 	<div class="project_content_top"> </div>
 	<div class="project_content">
-		<p class="title">Goodreads Analysis</p>
-		<p class="url"><%= link_to "https://shanfu.shinyapps.io/shiny_books/","https://shanfu.shinyapps.io/shiny_books/"%>
-		<p class="url"><%= link_to "Github Repo","https://github.com/shannonrush/shiny_books"%>
-		<p class="desc">Shiny app analyzing book genre popularity</p>
+		<p class="title">bagRboostR</p>
+        <p class="url"><%= link_to "CRAN Repo", "http://cran.r-project.org/web/packages/bagRboostR/"%>
+		<p class="url"><%= link_to "Github Repo","https://github.com/shannonrush/bagRboostR"%>
+		<p class="desc">An R Package for ensemble bagging and boosting classifiers</p>
         <ul>
-          <li>R, Shiny, ggplot2, R markdown, knitr, Ruby, JavaScript</li>
-          <li>Visualize genre popularity over time, by gender, age group, and location</li>
+          <li>A set of ensemble classifiers for multinomial classification problems</li>
+          <li>The bagging function is the implementation of Breiman’s ensemble as described by <%= link_to "Opitz and Maclin (1999)","http://www.d.umn.edu/~rmaclin/publications/opitz-jair99.pdf"%></li>
+          <li>The boosting function is the implementation of Stagewise Additive Modeling using a Multi-class Exponential loss function (SAMME) created by <%= link_to "Zhu et al (2006)","http://www.stanford.edu/~hastie/Papers/samme.pdf"%></li>
+          <li>Each ensemble classifier returns a character vector of predictions for a given test set</li>
+          <li><%= link_to "bagRboostR Manual","/documentation/bagRboostR-manual.pdf"%>
         </ul>
 	</div>
 </div>
@@ -38,23 +41,6 @@
           <li>Ruby, Rails 4, D3js, topojson</li>
           <li>Sentiment analysis using customized AFINN-111 lexicon</li>
           <li>Enter a search term to see geofeelings mine Twitter, analyze tweet sentiment and place tweets on a global map colored by attitude all in real(ish) time</li>  
-        </ul>
-	</div>
-</div>
-<div class="project_content_bottom"> </div>
-<div class="project">
-	<div class="project_content_top"> </div>
-	<div class="project_content">
-		<p class="title">bagRboostR</p>
-        <p class="url"><%= link_to "CRAN Repo", "http://cran.r-project.org/web/packages/bagRboostR/"%>
-		<p class="url"><%= link_to "Github Repo","https://github.com/shannonrush/bagRboostR"%>
-		<p class="desc">An R Package for ensemble bagging and boosting classifiers</p>
-        <ul>
-          <li>A set of ensemble classifiers for multinomial classification problems</li>
-          <li>The bagging function is the implementation of Breiman’s ensemble as described by <%= link_to "Opitz and Maclin (1999)","http://www.d.umn.edu/~rmaclin/publications/opitz-jair99.pdf"%></li>
-          <li>The boosting function is the implementation of Stagewise Additive Modeling using a Multi-class Exponential loss function (SAMME) created by <%= link_to "Zhu et al (2006)","http://www.stanford.edu/~hastie/Papers/samme.pdf"%></li>
-          <li>Each ensemble classifier returns a character vector of predictions for a given test set</li>
-          <li><%= link_to "bagRboostR Manual","/documentation/bagRboostR-manual.pdf"%>
         </ul>
 	</div>
 </div>
